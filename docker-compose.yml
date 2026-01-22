@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_book_recommender
+    ports:
+      - "6333:6333" # Porta da API REST
+      - "6334:6334" # Porta do gRPC
+    volumes:
+      - ./qdrant_data:/qdrant/storage:z # Persistência dos dados na pasta local
+    restart: on-failure

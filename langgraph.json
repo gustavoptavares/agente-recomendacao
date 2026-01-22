@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "book_recommender": "./backend/agents/graph.py:graph"
+  },
+  "env": ".env"
+}
