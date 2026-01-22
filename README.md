@@ -113,29 +113,36 @@ Monitoramento de latência, custo, qualidade e rastreabilidade completa.
 
 ---
 
-## 🗃️ Estrutura do Projeto
+## 🚀 Como Executar
 
-```text
-book-recommender-ai/
-├── backend/
-├── frontend/
-├── observability/
-├── embeddings/
-└── README.md
+**Configure variáveis de ambiente**
+
+```bash
+.env
 ```
 
-## 🚀 Como Executar
+**Executar Streamlit (sem precisar do FastAPI)**
 
-1. Configure variáveis de ambiente
-2. 
-3. Iniciar Qdrant (opcional - funciona sem ele agora)
-4. Execute FastAPI
-5. Execute Streamlit
+```bash
+streamlit run frontend/app.py
+```
+
+**Executar LangGraph Studio**
+
+```bash
+langgraph dev
+```
+
+**Executar LangGraph Studio**
+
+```bash
+langgraph dev
+```
+
 ---
 
-## 🚀 Como Executar
+## Tela de Testes
 
-1. Configure variáveis de ambiente
-2. Inicie Qdrant
-3. Execute FastAPI
-4. Execute Streamlit
+Monitoramento de latência, custo, qualidade e rastreabilidade completa.
+
+---
